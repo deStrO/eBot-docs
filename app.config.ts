@@ -1,16 +1,11 @@
 export default defineAppConfig({
   docus: {
-    title: 'Docus',
-    description: 'The best place to start your documentation.',
-    image: 'https://user-images.githubusercontent.com/904724/185365452-87b7ca7b-6030-4813-a2db-5e65c785bf88.png',
+    title: 'eBot-CS2',
+    description: 'INGAME CONTROLLER. AFTERMATCH ANALYZER',
+    image: '/logo.png',
     socials: {
-      twitter: 'nuxt_js',
-      github: 'nuxt-themes/docus',
-      nuxt: {
-        label: 'Nuxt',
-        icon: 'simple-icons:nuxtdotjs',
-        href: 'https://nuxt.com'
-      }
+      twitter: 'deStrO_BE',
+      github: 'deStrO/eBot-CSGO',
     },
     github: {
       dir: '.starters/default/content',
@@ -26,13 +21,13 @@ export default defineAppConfig({
     },
     main: {
       padded: true,
-      fluid: true
+      fluid: false
     },
     header: {
       logo: true,
       showLinkIcon: true,
       exclude: [],
-      fluid: true
+      fluid: false
     }
   }
 })
