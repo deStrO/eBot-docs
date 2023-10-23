@@ -8,10 +8,10 @@ export default defineAppConfig({
       github: 'deStrO/eBot-CSGO',
     },
     github: {
-      dir: '.starters/default/content',
+      dir: '',
       branch: 'main',
-      repo: 'docus',
-      owner: 'nuxt-themes',
+      repo: 'eBot-docs',
+      owner: 'deStrO',
       edit: true
     },
     aside: {
